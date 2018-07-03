@@ -7,8 +7,7 @@ def oxford_comma(array)
   elsif array.length == 2
     oxford = array[0] + " and " + array[1]
   else
-
+    oxford = buildComma(array) + " and " + array[-1]
   end
-  
   oxford
 end
