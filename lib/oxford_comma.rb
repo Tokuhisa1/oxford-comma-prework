@@ -6,5 +6,6 @@
 #   end
 # end
 def oxford_comma(array)
-  
+  oxford = ''
+  oxford
 end
