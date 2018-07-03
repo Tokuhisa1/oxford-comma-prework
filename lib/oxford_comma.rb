@@ -1,5 +1,5 @@
 def buildComma(array)
-  array.pop
+  # array.pop
   array.join(", ")
 end
 
