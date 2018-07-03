@@ -1,7 +1,9 @@
+def buildComma(array)
+  
+end
+
 def oxford_comma(array)
   oxford = ''
-  count = 0
-
   if array.length == 1
     oxford = array[0]
   elsif array.length == 2
