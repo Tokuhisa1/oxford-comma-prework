@@ -1,5 +1,6 @@
 def buildComma(array)
-  
+  array.pop
+  array.join(", ")
 end
 
 def oxford_comma(array)
